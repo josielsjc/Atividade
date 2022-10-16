@@ -37,7 +37,12 @@ else  {
   echo  $palavra[$i] = $aleatorio; 
   
  $i++;
+ 
+ //Somente para organizar as palavras para melhorar a legibilidade a cada 5 linhas
+if($i % 5 == 1){
 
+  echo '  <br>    ';
+}
   }
  
 }

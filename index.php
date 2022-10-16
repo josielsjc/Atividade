@@ -27,7 +27,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user"
                             id="exampleInputEmail" aria-describedby="emailHelp"
-                            name='frm_anagrama' placeholder="Digite uma palavra bonita como BIRO" > 
+                            name='frm_anagrama' placeholder="Digite uma palavra bonita como BIRO" required > 
                 
                     
                     <button type="submit" value="Entrar"  class="col-lg-12 btn btn-primary btn-user btn-block">Anagramatizar!</button>
