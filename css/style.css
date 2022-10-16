@@ -1,0 +1,9 @@
+.botao{
+  
+    margin-top: 50px;
+}
+
+body{
+    background: rgb(147,147,147);
+    background: linear-gradient(90deg, rgba(147,147,147,0.6895133053221288) 0%, rgba(255,255,255,1) 6%, rgba(221,221,221,0.6166841736694677) 100%);
+}
