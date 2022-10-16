@@ -13,9 +13,9 @@
 </head>
 <body>
 
-<div class="container col-lg-8">
+<div class="container col-lg-8"> <!-- Inicio Conteiner  -->
 
-    <div class="row">
+<div class="row"><!-- Inicio Row  -->
         <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
         <div class="col-lg-12">
             <div class="p-5">
@@ -23,7 +23,8 @@
                     <h1 class="h4 text-gray-900 mb-4">Anagrama</h1>
                 
                 </div>
-                <form class="user" action='anagrama.php' method='POST' require >
+            <!-- Inicio Anagrama -->
+            <form class="user" action='anagrama.php' method='POST' require >
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user"
                             id="exampleInputEmail" aria-describedby="emailHelp"
@@ -34,54 +35,54 @@
                     
                         <hr>
                 
-                </form>
+            </form><!-- Fim Anagrama -->
 
                 
                 <div class="row">
-        <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
-        <div class="col-lg-12">
-            <div class="p-5">
-                <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Profissões sem POO</h1>
+                    <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
+                    <div class="col-lg-12">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">Profissões sem POO</h1>
                 
                 </div>
-
+            <!-- Inicio Modulo Sem POO  -->
             <form class="user" action='modulo.php' method='POST' required>
-                    <div class="form-group">
+                            <div class="form-group">
+                                
+                            <select class="col-lg-4   form-select " aria-label="Default select example" name="frm_tipo">
                         
-                    <select class="col-lg-4   form-select " aria-label="Default select example" name="frm_tipo">
-                
-                        <option selected value="dancer">dancer</option>
-                        <option value="developer">developer</option>
-                        <option value="player">player</option>
-                        </select>
-                        <select class="col-lg-4  form-select" aria-label="Default select example" name="frm_periodo">
-                
-                        <option selected value="day">day</option>
-                        <option value="night">night</option>
+                                <option selected value="dancer">dancer</option>
+                                <option value="developer">developer</option>
+                                <option value="player">player</option>
+                                </select>
+                                <select class="col-lg-4  form-select" aria-label="Default select example" name="frm_periodo">
+                        
+                                <option selected value="day">day</option>
+                                <option value="night">night</option>
 
-                    </select>
+                            </select>
+                        
+                            
+                        <button type="submit" value="Entrar"  class="btn btn-primary btn-user btn-block botao">Escolher</button>
+                        
+                            <hr>
                 
-                    
-                <button type="submit" value="Entrar"  class="btn btn-primary btn-user btn-block botao">Escolher</button>
-                
-                    <hr>
-                
-            </form>
+            </form><!-- Fim Modulo Sem POO  -->
 
-        
-            <div class="row">
+            <div class="row">  
             
-        <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
-        <div class="col-lg-12">
-            <div class="p-5">
-                <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Profissões com POO</h1>
-                
-                </div>
+                <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
+                <div class="col-lg-12">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Profissões com POO</h1>
+                        
+                        </div>
 
+            <!-- Inicio  Modulo POO -->
             <form class="user" action='Modulo-Poo.php' method='POST' required>
-                    <div class="form-group">
+                            <div class="form-group">
                     
                     
                     <select class="col-lg-4 form-select " aria-label="Default select example" name="frm_tipo">
@@ -98,13 +99,14 @@
                     </select>
                 
                     
-                <button type="submit" value="Entrar"  class="col-12 btn btn-primary btn-user btn-block botao">Escolher</button>
+                     <button type="submit" value="Entrar"  class="col-12 btn btn-primary btn-user btn-block botao">Escolher</button>
                 
                     <hr>
                 
-            </form>
+            </form>  <!-- Fim Modulo POO -->
 
-</div>
+</div> 
+</div>  <!-- Fim Conteiner  -->
 </body>
 </html>
 
