@@ -19,7 +19,7 @@ $var_anagrama= $_POST['frm_anagrama'];
       }$i = 0;
 
       //inicia o primeiro indice
-      $palavra[$i] = $var_anagrama; 
+      echo  '    ' . $palavra[$i] = $var_anagrama; 
 for ($i = 1; $i <= $conta;) {
 
 
